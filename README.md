@@ -4,7 +4,7 @@ This repository features a **Weather Insights Dashboard** built using Power BI. 
 
 ## 📸 Dashboard Preview
 
-![Weather Insights Dashboard](https://github.com/Sakshi-Gaur01/Weather-Report/blob/main/weather_snapshot.png)
+![Weather Insights Dashboard](https://github.com/Sakshi-Gaur01/Weather-Report/blob/main/snapshot.png)
 
 ## 🌦 Key Features
 
