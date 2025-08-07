@@ -1,61 +1,60 @@
 # ☁️ Weather Insights Dashboard - Power BI
+An interactive Power BI dashboard built to analyze global weather trends across countries—focusing on metrics like temperature, humidity, wind speed, and conditions over time.
 
-This repository features a **Weather Insights Dashboard** built using Power BI. It delivers an intuitive and dynamic visualization of current weather conditions, forecasts, air quality, and environmental metrics for multiple cities.
 
-## 📸 Dashboard Preview
+## 📌 Project Description
+The ClimaView Dashboard provides a comprehensive visual analysis of daily weather patterns across multiple cities worldwide. Designed for weather analysts, students, and planners, it helps monitor climate indicators like temperature ranges, weather conditions, and humidity trends to support data-driven decision-making and awareness.
+
+
+## 🔧 Tech Stack
+
+- **Power BI Desktop** – Data visualization and report creation  
+- **Power Query** – Data cleaning and transformation  
+- **DAX (Data Analysis Expressions)** – Custom measures and logic  
+- **Data Modeling** – Relationships between weather metrics and cities  
+- **File Format** – `.pbix` for report, `.png` for visuals/screenshots  
+
+
+## 🌍 Data Source
+
+- **Source**: [OpenWeatherMap API](https://openweathermap.org/api) / Kaggle Weather Datasets *(choose based on your project)*  
+- **Description**: Daily weather records including:
+  - Temperature (Min/Max/Avg)
+  - Humidity
+  - Wind Speed
+  - Weather Conditions (Clear, Rainy, Snowy, etc.)
+  - City and Country Info
+  - Timestamps (Date)
+
+## 📈 Features & Highlights
+
+### 💼 Business Problem  
+Stakeholders like tourists, researchers, and governments need a simple, visual way to understand and compare weather conditions across regions — but raw weather data is often too complex to interpret.
+
+### 🎯 Goal of the Dashboard  
+To offer an intuitive, filterable, and interactive visual report that:
+- Provides weather insights across multiple cities
+- Supports planning, research, and awareness
+- Highlights patterns in temperature, climate, and wind behavior
+
+### 🔍 Key Visuals
+- **Global KPIs**: Total cities, average temperature, extreme conditions  
+- **City Filter Panel**: Select any city to drill down  
+- **Temperature Trends (Line Chart)**: Shows min, max, and average temps  
+- **Weather Type Distribution (Donut Chart)**: % of sunny, cloudy, rainy days  
+- **Humidity vs Wind Speed (Scatter Plot)**: Spot patterns in extremes  
+- **City-wise Heatmap**: Compare temperature variation across regions  
+
+### 💡 Business Impact
+- **Climate Monitoring**: Track changes in temperature/humidity trends  
+- **Travel Planning**: Choose cities with favorable weather conditions  
+- **Event Scheduling**: Identify ideal weather windows for outdoor activities  
+- **Policy & Awareness**: Helps officials focus on weather-prone regions
+
+
+## 📸 Snapshot 
 
 ![Weather Insights Dashboard](https://github.com/Sakshi-Gaur01/Weather-Report/blob/main/snapshot.png)
 
-## 🌦 Key Features
-
-| Section | Description |
-|--------|-------------|
-| **Current Weather Card** | Displays real-time temperature, weather condition, and selected city |
-| **Forecast Weather** | 7-day temperature forecast with line chart visualization |
-| **Sunrise & Sunset** | Accurate timings for the selected city |
-| **Air Quality Index** | AQI gauge along with PM10, PM2.5, O3, SO2, CO, NO2 indicators |
-| **Environmental Metrics** | Real-time data on humidity, wind speed, pressure, UV index, visibility, and precipitation |
-| **Chance of Rain** | Daily rain probability shown as horizontal bar graph |
-
-## 🏙️ Cities Supported
-
-- Agra
-- Ajmer
-- Hyderabad  
-(Extendable to more cities through slicers)
-
-## 🛠 Tools & Technologies Used
-
-- **Power BI Desktop**
-- **DAX Measures**
-- **Custom Visuals**
-- **Dynamic Filters and Slicers**
-
-## 📁 Files Included
-
-- `Weather_Dashboard.pbix` (Upload this file if you haven’t yet)
-- `README.md` – Project documentation
-
-
-## 🎯 Objective
-
-This project aims to:
-
-- Provide clear weather-related insights to users or organizations.
-- Demonstrate advanced **data storytelling and UI design** in Power BI.
-- Integrate real-world environmental data in an engaging dashboard layout.
-
-## 💡 Possible Enhancements
-
-- Integration with live weather APIs using Power BI dataflows or Python scripts
-- Add severe weather alerts and historical trends
-- Add more cities with user-driven selection
-
-## 📬 Contact
-
-Created by [Sakshi Gaur](https://linkedin.com/in/sakshigaur)  
-Feel free to connect for feedback, collaboration, or suggestions!
-
----
 
 ⭐ If you like this project, consider giving it a **star**!
